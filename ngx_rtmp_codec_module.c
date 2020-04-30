@@ -605,7 +605,7 @@ ngx_rtmp_codec_reconstruct_meta(ngx_rtmp_session_t *s)
     static ngx_rtmp_amf_elt_t       out_inf[] = {
 
         { NGX_RTMP_AMF_STRING,
-          ngx_string("Server"),
+          ngx_string("xtradata"),
           "NGINX RTMP (github.com/sergey-dryabzhinsky/nginx-rtmp-module)", 0 },
 
         { NGX_RTMP_AMF_NUMBER,
